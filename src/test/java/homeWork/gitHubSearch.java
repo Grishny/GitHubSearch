@@ -2,15 +2,8 @@ package homeWork;
 
 import com.codeborne.selenide.*;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.*;
 
-import java.io.*;
-import java.time.Duration;
-
-import static com.codeborne.selenide.CollectionCondition.*;
-import static com.codeborne.selenide.Condition.empty;
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class gitHubSearch {
