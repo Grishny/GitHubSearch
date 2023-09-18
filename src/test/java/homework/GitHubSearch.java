@@ -1,4 +1,4 @@
-package homeWork;
+package homework;
 
 import com.codeborne.selenide.*;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class gitHubSearch {
+public class GitHubSearch {
     @Test
     void searchOnSoftAssertions() {
         Configuration.baseUrl = "https://github.com/";
